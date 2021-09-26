@@ -1,4 +1,4 @@
-# Mother of all BCI Benchmarks
+# Mother of all BCI Benchmarks (This is a copy of the original repo in https://github.com/NeuroTechX/moabb, wiht different requirement conditions)
 
 <p align=center>
   <img alt="banner" src="/images/M.png/">
