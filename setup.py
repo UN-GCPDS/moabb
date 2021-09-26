@@ -7,9 +7,9 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='EEG_Tensorflow_models',
+    name='moabb',
     version='0.1',
-    packages=['EEG_Tensorflow_models'],
+    packages=['moabb'],
 
     author='D.G Garcia-Murillo, J.C Caicedo-Acosta',
     author_email='dggarciam@unal.edu.co, jccaicedoac@unal.edu.co',
@@ -18,15 +18,7 @@ setup(
 
     download_url='',
 
-    install_requires=['braindecode @ git+https://github.com/braindecode/braindecode',
-                      'moabb @ git+https://github.com/NeuroTechX/moabb.git@v0.3.0',
-                      #'numpy',
-                      #'scipy>=1.4.0',
-                      #'matplotlib',
-                      'tensorflow-addons',
-                      #'mne>=0.23.4',
-                      #'moabb>=0.4.2',
-                      #'skorch',
+    install_requires=['numpy',
                       ],
 
     include_package_data=True,
